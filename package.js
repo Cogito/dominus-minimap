@@ -8,7 +8,8 @@ Package.describe({
 Package.onUse(function(api) {
 	api.versionsFrom('METEOR-CORE@0.9.0-rc10')
 	api.use(['templating', 'deps'], 'client')
-	api.addFiles('server/publish.js', 'server')
+	api.export('Minimap', 'server')
+	api.addFiles('server/minimap.js', 'server')
 	api.addFiles('client/startup.js', 'client')
 	api.addFiles('client/minimap.css', 'client')
 	api.addFiles('client/minimap.html', 'client')
