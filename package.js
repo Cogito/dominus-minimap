@@ -1,7 +1,7 @@
 Package.describe({
 	name: "danimal:dominus-minimap",
 	summary: "Minimap package for Dominus.  http://dominusgame.net",
-	version: "1.0.0",
+	version: "1.0.1",
 	git: "https://github.com/dan335/dominus-minimap.git"
 });
 
